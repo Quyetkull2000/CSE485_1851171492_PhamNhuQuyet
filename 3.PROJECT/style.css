@@ -1,0 +1,161 @@
+html,body {
+    width: 100%;
+    height: 1800px;
+    font-family: 'Lobster';
+    font-size: 17px;
+    color: #222;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* HEADER */
+
+.logo{
+    padding-top: 22px;
+    padding-left: 50px;
+}
+
+.menu-area {
+    background-color:  white;
+    height: 130px;
+    width: 100%;
+}
+
+#search {
+    width: 300px;
+    height: 30px;
+    margin-top: 15px;
+    float: right;
+    margin-right: 60px;
+    border-radius: 25px;
+    outline: none;
+}
+
+
+
+
+
+.menu-area {
+    background-color: white;
+    padding: 0%;
+}
+.menu-area ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 50%;
+}
+.menu-area li {
+    display: inline-block;
+}
+.menu-area a {
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    line-height: 40px;
+}
+/*dropdown*/
+.ame{
+    background: #003478;
+}
+
+
+.menuu ul {
+    display: flex;
+}
+
+.menu ul li{
+    color: white;
+}
+.menuu ul li a{
+    font-size: 15px;
+    color: black;
+}
+.menuu ul li a:hover{
+    background: #003478;
+}
+
+
+/*slide*/
+.carousel-inner {
+    width: 100%;
+    height: auto;
+}
+.welcome hr{
+    border: 2px solid 	rgb(0, 64, 255);
+    width: 95%;
+    margin-bottom: 2rem;
+}
+
+/* Card tilte */
+.list-menu{
+    color: black;
+    text-align: left;
+}
+
+.card{
+    border: 1px solid black;
+    padding:5px;
+    margin: 5px 0;
+}
+
+.notice{
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.Youtube{
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.sub-menu{
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.map{
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+.footer {
+    background-color:#003478;
+    width: 100%;
+    text-align: left;
+
+}
+
+.footer ul li{
+     text-decoration: none;
+}
+.footer__list li a {
+    color: white !important; 
+
+}
+.footer__list li a:hover {
+    color: purple !important;
+}
+.footer__contact {
+    color: white !important;
+}
+.footer__contact li a:hover {
+    color: purple !important;
+}
+.footer__logo {
+    color: white !important;
+    
+}
