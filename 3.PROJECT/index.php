@@ -55,7 +55,7 @@
 						</li>
 
 						
-						<li class="nav-item ">
+						<li class="nav-item dropdown">
 							<a class="nav-link " id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">GIỚI THIỆU</a>
 							<div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink" >
 								<a class="dropdown-item" href="#">Logo Khoa  CNTT</a> 
@@ -66,7 +66,7 @@
 						</li>
 						
 
-						<li class="nav-item ">
+						<li class="nav-item dropdown">
 							<a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">NGHIÊN CỨU KHOA HỌC</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 								<a class="dropdown-item" href="#">Các đề tài dự án</a> 
@@ -78,7 +78,7 @@
 
 
 
-						<li class="nav-item ">
+						<li class="nav-item dropdown">
 							<a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">ĐÀO TẠO</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 								<a class="dropdown-item" href="#">Đào tạo khoa học</a> 
@@ -90,7 +90,7 @@
 							</div>
 						</li>
 
-						<li class="nav-item ">
+						<li class="nav-item dropdown">
 							<a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">BỘ MÔN - TRUNG TÂM</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 								<a class="dropdown-item" href="#">CN Phần mềm</a> 
@@ -105,14 +105,14 @@
 									<a class="nav-link" href="includes/hoso/index.php" style="font-size: 15px;margin-top: 5px;">TUYỂN SINH</a>
 								</li>	
 
-								<li class="nav-item ">
+								<li class="nav-item dropdown">
 									<a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">TIN TỨC</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 										<a class="dropdown-item" href="#">Sự kiện</a> 
 										<a class="dropdown-item" href="#">CSE trên báo</a>
 									</div>
 								</li>
-									<li class="nav-item ">
+									<li class="nav-item dropdown">
 										<a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">THÔNG BÁO</a>
 										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 											<a class="dropdown-item" href="#">Thông báo</a> 

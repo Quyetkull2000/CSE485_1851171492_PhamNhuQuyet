@@ -1,0 +1,95 @@
+
+body{
+  font-family: arial;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+}
+
+.buttons{
+  text-align: right;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 38px;
+}
+.buttons a{
+  color: #FFF;
+  padding: 10px;
+  background: #000;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+#admin-heading-panel{
+  background:#003478;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+}
+#admin-heading-panel a{
+  color: #fff;
+}
+.left-panel{
+  float: left;
+}
+.left-panel span{
+  color: #eeff09;
+  font-weight: bold;
+}
+.right-panel{
+  float: right;
+}
+.right-panel img{
+  vertical-align: middle;
+}
+.right-panel a{
+  margin-right: 10px;
+}
+.left-menu{
+  float: left;
+  width: 280px;
+}
+
+#content-wrapper .container{
+  padding: 15px 0;
+}
+.menu-heading{
+  background: #003478;
+  line-height: 20px;
+  padding: 10px;
+  color: #FFF;
+  border-radius: 10px 10px 0 0;
+  font-size: 18px;
+}
+.menu-items ul{
+  margin: 0;
+  padding: 0;
+}
+.menu-items ul li{
+  list-style: none;
+  line-height: 30px;
+  border-bottom: 1px dashed #ccc;
+  padding-left: 15px;
+}
+.menu-items ul li a{
+  color: #000;
+}
+.menu-items ul li:first-child{
+  border-top: 0;
+}
+.menu-items{
+  padding: 0 0px 15px 0px;
+  border: 1px solid #ccc;
+  border-radius: 0 0 10px 10px;
+}
