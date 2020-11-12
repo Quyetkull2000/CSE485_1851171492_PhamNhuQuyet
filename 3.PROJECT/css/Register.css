@@ -1,0 +1,12 @@
+.Register-form{
+	background-image: url('../images/bg4.jpg'); 
+	height: 700px;
+}
+
+.form-container{
+  background: white;
+  padding: 30px;
+  margin-top: 80px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+}

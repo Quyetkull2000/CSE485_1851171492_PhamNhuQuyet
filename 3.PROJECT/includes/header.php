@@ -18,13 +18,13 @@
 								<div class="row" style="background-color: #003478; margin-left: 0px; border-radius: 0px 0px 10px 50px;  height: 43px; ">
 									<div class="col-md-6">
 										<div>
-											<a  href="login.php" style="margin-left: 10px;margin-top: 0px;padding-top: 3px;padding-right: 0px;color: white;float: left; ">Đăng nhập</a>
+											<a  href="includes/Login.php" style="margin-left: 10px;margin-top: 0px;padding-top: 3px;padding-right: 0px;color: white;float: left; ">Đăng nhập</a>
 										</div>
 									</div>
 									
 									<div class="col-md-6">
 										<div >
-											<a  href="login.php" style="margin-left: 17px;margin-top: 0px;padding-top: 3px;padding-left: 0px;color: white; ">Đăng ký</a>
+											<a  href="includes/Register.php" style="margin-left: 17px;margin-top: 0px;padding-top: 3px;padding-left: 0px;color: white; ">Đăng ký</a>
 										</div>
 									</div>
 								</div>
