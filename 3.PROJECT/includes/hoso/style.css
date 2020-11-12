@@ -1,0 +1,49 @@
+body{
+	height: 1500px;
+}
+
+.header{
+	height: 50px;
+	width: 40%;
+	background:red;
+	text-align: center;
+	margin-left: 500px;
+}
+
+
+.form-hs{
+	height: 1000px;
+}
+
+
+.element-row{
+	margin:20px 0px;
+	box-sizing: border-box;
+}
+
+.input-group-text{
+	font-weight: bold;
+}
+/* Form xet tuyen */
+
+/* FORM Thông tin đăng kí */
+.title-dk{
+	height: 50px;
+	width: 60%;
+	background:red;
+	text-align: center;
+	margin-left: 200px;
+	margin-top: 30px;
+}
+
+.form-dk-1{
+	width: 100%;
+	height: 300px;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.submit{
+	margin-top: 30px;
+	margin-left: 350px;
+}
