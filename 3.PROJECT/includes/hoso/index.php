@@ -637,9 +637,9 @@
 								if($_SERVER['REQUEST_METHOD'] == "POST"){ 
 									$noisinh = $_POST['noisinh'];
 								}
-								if($_SERVER['REQUEST_METHOD'] == "POST"){ 
-									$namtotnghiep = $_POST['namtotnghiep'];
-								}
+								// if($_SERVER['REQUEST_METHOD'] == "POST"){ 
+								// 	$namtotnghiep = $_POST['namtotnghiep'];
+								// }
 								if($_SERVER['REQUEST_METHOD'] == "POST"){ 
 									$hocluclop12 = $_POST['hocluclop12'];
 								}
