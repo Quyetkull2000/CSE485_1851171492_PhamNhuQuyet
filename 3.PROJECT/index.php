@@ -124,7 +124,7 @@
 										</div>
 									</li>
 										<li class="nav-item">
-											<a class="nav-link" href="#" style="font-size: 15px;margin-top: 5px;">LIÊN HỆ</a>
+											<a class="nav-link" href="includes/admin/admin.php" style="font-size: 15px;margin-top: 5px;">LIÊN HỆ</a>
 										</li>
 
 
