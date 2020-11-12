@@ -25,14 +25,117 @@
 	<title>Web Khoa CNTT</title>
 </head>
 <body>
-	<div class="container">
+	
+	<div class="container"  >
 	<!-- Header -->
-		<?php 
+		
+	<?php 
 		require('includes/header.php');
-		?>
+	?>
 
+
+<style>
+			.menuu ul li a:hover{
+			background: #003478;
+			color: white;
+			}
+			.dropdown:hover .dropdown-menu {display: block;}
+		</style>
+		<div class="container ame" >	
+			
+			<nav class=" navbar-expand-lg  navbar-dark navbar">   
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="navbar-toggler-icon"></span></button> 
+				<a class="navbar-brand" href="#"></a>
+				<div class="collapse navbar-collapse menuu" id="bs-example-navbar-collapse-1">
+					<ul class="navbar-nav" style="">
+
+						<li class="nav-item ">
+							<a class="nav-link" href="#" style="font-size: 22px;"><i class="fas fa-home"></i> <span class="sr-only"></span></a>
+						</li>
+
+						
+						<li class="nav-item dropdown">
+							<a class="nav-link " id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">GIỚI THIỆU</a>
+							<div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink" >
+								<a class="dropdown-item" href="#">Logo Khoa  CNTT</a> 
+								<a class="dropdown-item" href="#">Lời chào mừng</a>
+								<a class="dropdown-item" href="#">Tổ chức</a> 
+								<a class="dropdown-item" href="#">Hợp tác liên kết</a>
+							</div>
+						</li>
+						
+
+						<li class="nav-item dropdown">
+							<a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">NGHIÊN CỨU KHOA HỌC</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="#">Các đề tài dự án</a> 
+								<a class="dropdown-item" href="#">Thông tin seminar</a> 
+								<a class="dropdown-item" href="#">Công trình công bố</a>
+								<a class="dropdown-item" href="#">Các phòng thí nghiệm</a>
+							</div>
+						</li>
+
+
+
+						<li class="nav-item dropdown">
+							<a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">ĐÀO TẠO</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="#">Đào tạo khoa học</a> 
+								<a class="dropdown-item" href="#">Đào tạo sau đại học</a> 
+								<a class="dropdown-item" href="#">Chuẩn đầu ra</a>
+								<a class="dropdown-item" href="#">Định hướng ngành nghề</a>
+								<a class="dropdown-item" href="#">Mô hình đào tạo</a>
+								<a class="dropdown-item" href="#">Đề cương môn học</a>
+							</div>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">BỘ MÔN - TRUNG TÂM</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="#">CN Phần mềm</a> 
+								<a class="dropdown-item" href="#">Hệ thống thông tin</a> 
+								<a class="dropdown-item" href="#">Khoa học máy tính và mạng</a>
+								<a class="dropdown-item" href="#">Toán học</a>
+								<a class="dropdown-item" href="#">Tin học và kĩ thuật tính toán</a>
+								<a class="dropdown-item" href="#">Trung tâm tin học</a>
+							</div>
+
+							<li class="nav-item dropdown">
+								<a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">TUYỂN SINH</a>
+								
+
+								<li class="nav-item dropdown">
+									<a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">TIN TỨC</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+										<a class="dropdown-item" href="#">Sự kiện</a> 
+										<a class="dropdown-item" href="#">CSE trên báo</a>
+									</div>
+
+									<li class="nav-item dropdown">
+										<a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" style="font-size: 15px;margin-top: 5px;">THÔNG BÁO</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+											<a class="dropdown-item" href="#">Thông báo</a> 
+											<a class="dropdown-item" href="#">TB đào tạo</a> 
+											<a class="dropdown-item" href="#">Nghiên cứu khoa học</a>
+											<a class="dropdown-item" href="#">Tuyển dụng</a>
+											<a class="dropdown-item" href="#">Học bổng</a>
+											<a class="dropdown-item" href="#">Thông báo khác</a>
+										</div>
+
+										<li class="nav-item">
+											<a class="nav-link" href="#" style="font-size: 15px;margin-top: 5px;">LIÊN HỆ</a>
+										</li>
+
+
+									</ul>
+								</div>
+							</nav>
+						</div>
+		
+						</div>
 		<!--Slide hình-->
-		<div class="container-fluid">
+		<div class="container-fluid" >
 			<div class="row">
 				<div class="col-md-12">
 					<div class="carousel slide" id="carousel-59747">
@@ -88,54 +191,56 @@
 													<h5 class="card-title">
 														<b>3 trong 4 sinh viên Trường Đại học Thủy lợi đạt giải tại Olympic Tin học toàn quốc là tân sinh viên Khóa 60</b>
 													</h5>
-																								
+														<span>Olympic Tin học sinh viên Việt Nam là sáng kiến của hội tin học Việt Nam, Hội sinh viên Việt Nam và Bộ giáo dục và đào tạo nhằm động...</span>										
 												</div>
 											</div>	
-
+											<br>
 											<!-- Card 2 -->
 											<div class="row">
 												<div class="col-md-12">													
 													<div class="row">			
 														<div class="col-md-4">
-															<img class="card-img-top" alt="Bootstrap Thumbnail First" src="images/Tintuc1.jpg" />
+															<img class="card-img-top" alt="Bootstrap Thumbnail First" src="images/k60.jpg" />
 														</div>
 														<div class="col-md-8">
 															<h5 class="card-title">
-																<b>Sinh viên Khoa CNTT giao lưu với công ty Qualica Nhật Bản</b>
+																<b>Khoa Công nghệ thông tin gặp mặt tân sinh viên Khóa 60</b>
 															</h5>
-															
+															<span>Trong không khí vui mừng, rạo rực những ngày đầu nhập học, buổi gặp mặt vừa là dịp để khoa giới thiệu ngành nghề, cơ hội việc làm, vừa là dịp để các em...</span>
 														</div>
 													</div>		
 												</div> 
 											</div>
+											<br>
 											<!-- Card 3 -->
 											<div class="row">
 												<div class="col-md-12">
 													<div class="row">			
 														<div class="col-md-4">
-															<img class="card-img-top" alt="Bootstrap Thumbnail First" src="images/Tintuc1.jpg" />
+															<img class="card-img-top" alt="Bootstrap Thumbnail First" src="images/card3.jpg" />
 														</div>
 														<div class="col-md-8">
 															<h5 class="card-title">
-																<b>Khoa Công nghệ thông tin ký kết thoả thuận hợp tác với công ty công nghệ NashTech</b>
+																<b>Công nghệ thông tin Trường Đại học Thủy lợi- Mùa tuyển sinh thành công</b>
 															</h5>
-																								
+															<span>Mở đầu thông tin về tuyển sinh năm nay, PGS.TS Nguyễn Xuân Hoài - Viện trưởng Viện nghiên cứu và Phát triển Công nghệ thông tin Đại học Hà Nội...</span>							
 														</div>
 													</div>	
 												</div> 
 											</div>
-
+											<br>
+											<!-- Card 4 -->
 											<div class="row">
 												<div class="col-md-12">
 													<div class="row">			
 														<div class="col-md-4">
-															<img class="card-img-top" alt="Bootstrap Thumbnail First" src="images/Tintuc1.jpg" />
+															<img class="card-img-top" alt="Bootstrap Thumbnail First" src="images/card4.jpg" />
 														</div>
 														<div class="col-md-8">
 															<h5 class="card-title">
-																<b>3 trong 4 sinh viên Trường Đại học Thủy lợi đạt giải tại Olympic Tin học toàn quốc là tân sinh viên Khóa 60</b>
+																<b>Đội tuyển Olympic Tin học toàn quốc ra quân</b>
 															</h5>
-																									
+															<span>Với thời gian ôn luyện gấp rút trong 2 tháng cùng việc xét chọn kỹ lưỡng qua các bài kiểm tra, đội tuyển Olympic Tin học toàn quốc của Trường Đại học Thủy lợi...</span>									
 														</div>
 													</div>	
 												</div> 									
@@ -145,10 +250,8 @@
 											<div class="row">
 												<div class="col-md-12">
 													<h3 style="float: left;" class="fas fa-film"> Video giới thiệu Khoa</h3><br><br>
-													<iframe  width="100%" height="300px" 
-													src="https://www.youtube.com/embed/vq3GlW82oRg"
-													frameborder="0" >
-												</iframe>
+													
+												<iframe width="100%" height="300px" src="https://www.youtube.com/embed/hxhTgffI2JY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 											</div>
 										</div>												
 									</div>
@@ -162,12 +265,11 @@
 						<div class="container">
 							<div class="row">
 
-								<h3 style="float: left;" class="fas fa-bell"> Thông báo mới</h3><br>	
-								<img  src="images/icon_new1.gif" height="15px" width="31px" border="0" />							
-								<a href="http://cse.tlu.edu.vn/tin-thong-bao/cong-ty-cp-giai-phap-phan-mem-tai-chinh-fss-291" style="margin: 10px 0;"><img  src="images/icon_new1.gif" height="15px" width="31px" border="0" />CÔNG TY CP GIẢI PHÁP PHẦN MỀM TÀI CHÍNH (FSS) TUYỂN DỤNG</a>
-								<img  src="images/icon_new1.gif" height="15px" width="31px" border="0" /><br>
+								<h3 style="float: left;" class="fas fa-bell"> Thông báo mới</h3><br>
+								<a href="http://cse.tlu.edu.vn/tin-thong-bao/cong-ty-cp-giai-phap-phan-mem-tai-chinh-fss-291" style="margin: 10px 0;">CÔNG TY CP GIẢI PHÁP PHẦN MỀM TÀI CHÍNH (FSS) TUYỂN DỤNG</a>
+								<img  src="images/icon_new1.gif" height="15px" width="31px" border="0" />
 								<a href="http://cse.tlu.edu.vn/tin-thong-bao/tu-0h00-ngay-30-5-den-1-8-2020-thi-sinh-bat-dau-290">Từ 0h00 ngày 30/5 đến 1/8/2020, Thí sinh bắt đầu đăng ký trực tuyến xét tuyển thẳng và xét tuyển học bạ vào Trường Đại học Thủy lợi</a>
-								<img  src="images/icon_new1.gif" height="15px" width="31px" border="0" /><br>
+								<img  src="images/icon_new1.gif" height="15px" width="31px" border="0" />
 								<a href="http://cse.tlu.edu.vn/tin-thong-bao/cong-ty-cp-giai-phap-phan-mem-tai-chinh-fss-291" style="margin: 10px 0;">CÔNG TY CP GIẢI PHÁP PHẦN MỀM TÀI CHÍNH (FSS) TUYỂN DỤNG</a>
 								
 							</div>
