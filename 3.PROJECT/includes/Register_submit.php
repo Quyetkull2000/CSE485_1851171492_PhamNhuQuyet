@@ -13,7 +13,7 @@ if (isset($_POST['Dangky']) && $_POST['username'] != "" && $_POST['email'] != ""
 		header("location: Register.php");
       die(); //Không thực hiện sau nó nữa
   }
-  $sql= "SELECT * FROM users WHERE username='$username' AND password='$password' ";
+  $sql= "SELECT * FROM users WHERE username='$username' ";
   $result= mysqli_query($conn,$sql); 
                     //Mã hóa PW
   $password= md5($password);
@@ -25,7 +25,7 @@ if (isset($_POST['Dangky']) && $_POST['username'] != "" && $_POST['email'] != ""
     $sql= "INSERT INTO users(username,email,password) VALUES ('$username','$email','$password') ";
     mysqli_query($conn,$sql);
     $_SESSION['thongbao']= "Đăng ký thành công";
-    header('location: login.php');
+    header('location: Login.php');
 }
 
 else{

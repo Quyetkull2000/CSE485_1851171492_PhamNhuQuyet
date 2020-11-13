@@ -38,7 +38,7 @@ session_start();
 						<label for="exampleInputPassword1">Confirm Password</label>
 						<input type="password" class="form-control btn btn-outline-success " name="confirm_pw">
 					</div>
-					<center><input type="submit" name="Dangky" value="Đăng ký" class="btn-lg btn-primary btn-block"></center>
+					<center><input type="submit" name="Dangky" value="Đăng ký" class="btn-lg btn-primary btn-block"></center><br/>
 					<!-- Hiển thị lỗi -->
 					<?php 
 					if (isset($_SESSION['thongbao'])) {
@@ -46,6 +46,7 @@ session_start();
 						
 					}
 					?>
+					<br/>
 				</form>
 
 			</div>

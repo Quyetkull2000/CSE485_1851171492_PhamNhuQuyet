@@ -28,10 +28,11 @@ session_start();
 	<title>Web Khoa CNTT</title>
 </head>
 <body>
+	<!-- Khởi động phiên làm việc-->
 	<?php 
-	// if (!isset($_SESSION["user"])) {
-	// 	header("location: ../Login.php");
-	// }
+	if (!isset($_SESSION["user"])) {
+		header("location: ../Login.php");
+	}
 	?>
 	<div class="container">
 		<!-- Header -->
@@ -55,7 +56,7 @@ session_start();
 								<div class="row" style="background-color: #003478; margin-left: 0px; border-radius: 0px 0px 10px 50px;  height: 43px; ">
 									<div class="col-md-12">
 										<div>
-											<a  href="../Logout.php" style="margin-left: 10px;margin-top: 0px;padding-top: 3px;padding-right: 0px;color: white;float: left; ">Đăng xuất</a>
+											<a  href="../Logout.php" style="margin-left: 10px;margin-top: 0px;padding-top: 3px;padding-right: 0px;color: white;float: left; "><?php echo $_SESSION['user']; ?> | Đăng xuất</a>
 										</div>
 									</div>
 								</div>
@@ -194,6 +195,7 @@ session_start();
 
 
 
+						
 						<div class="container-fluid padding">
 							<div class="row welcome text-center">
 								<hr>
@@ -205,66 +207,68 @@ session_start();
 											<div class="row">
 												<!-- Card 1 -->
 												<div class="col-md-12 ">																
-													<h3 class="fas fa-graduation-cap" > Tin tức sự kiện</h3><br>
+													<h3 style="float: left;" class="fas fa-graduation-cap"> Tin tức sự kiện</h3><br><br>
 													<div class="row">
 														<div class="col-md-12">
 
 															<div class="row">			
 																<div class="col-md-4">
-																	<img class="card-img-top" alt="Bootstrap Thumbnail First" src="../images/Tintuc1.jpg" />
+																	<img class="card-img-top" alt="Bootstrap Thumbnail First" src="../../images/Tintuc1.jpg" />
 																</div>
 																<div class="col-md-8">
 																	<h5 class="card-title">
 																		<b>3 trong 4 sinh viên Trường Đại học Thủy lợi đạt giải tại Olympic Tin học toàn quốc là tân sinh viên Khóa 60</b>
 																	</h5>
-
+																	<span>Olympic Tin học sinh viên Việt Nam là sáng kiến của hội tin học Việt Nam, Hội sinh viên Việt Nam và Bộ giáo dục và đào tạo nhằm động...</span>										
 																</div>
 															</div>	
-
+															<br>
 															<!-- Card 2 -->
 															<div class="row">
 																<div class="col-md-12">													
 																	<div class="row">			
 																		<div class="col-md-4">
-																			<img class="card-img-top" alt="Bootstrap Thumbnail First" src="../images/Tintuc1.jpg" />
+																			<img class="card-img-top" alt="Bootstrap Thumbnail First" src="../../images/k60.jpg" />
 																		</div>
 																		<div class="col-md-8">
 																			<h5 class="card-title">
-																				<b>Sinh viên Khoa CNTT giao lưu với công ty Qualica Nhật Bản</b>
+																				<b>Khoa Công nghệ thông tin gặp mặt tân sinh viên Khóa 60</b>
 																			</h5>
-
+																			<span>Trong không khí vui mừng, rạo rực những ngày đầu nhập học, buổi gặp mặt vừa là dịp để khoa giới thiệu ngành nghề, cơ hội việc làm, vừa là dịp để các em...</span>
 																		</div>
 																	</div>		
 																</div> 
 															</div>
+															<br>
 															<!-- Card 3 -->
 															<div class="row">
 																<div class="col-md-12">
 																	<div class="row">			
 																		<div class="col-md-4">
-																			<img class="card-img-top" alt="Bootstrap Thumbnail First" src="../images/Tintuc1.jpg" />
+																			<img class="card-img-top" alt="Bootstrap Thumbnail First" src="../../images/card3.jpg" />
 																		</div>
 																		<div class="col-md-8">
 																			<h5 class="card-title">
-																				<b>Khoa Công nghệ thông tin ký kết thoả thuận hợp tác với công ty công nghệ NashTech</b>
+																				<b>Công nghệ thông tin Trường Đại học Thủy lợi- Mùa tuyển sinh thành công</b>
 																			</h5>
-
+																			<span>Mở đầu thông tin về tuyển sinh năm nay, PGS.TS Nguyễn Xuân Hoài - Viện trưởng Viện nghiên cứu và Phát triển Công nghệ thông tin Đại học Hà Nội...</span>							
 																		</div>
 																	</div>	
 																</div> 
 															</div>
-
+															<br>
+															<!-- Card 4 -->
 															<div class="row">
 																<div class="col-md-12">
 																	<div class="row">			
 																		<div class="col-md-4">
-																			<img class="card-img-top" alt="Bootstrap Thumbnail First" src="../images/Tintuc1.jpg" />
+																			<img class="card-img-top" alt="Bootstrap Thumbnail First" src="../../images/card4.jpg" />
 																		</div>
 																		<div class="col-md-8">
 																			<h5 class="card-title">
-																				<b>3 trong 4 sinh viên Trường Đại học Thủy lợi đạt giải tại Olympic Tin học toàn quốc là tân sinh viên Khóa 60</b>
+																				<b>Đội tuyển Olympic Tin học toàn quốc ra quân</b>
 																			</h5>
-
+																			<span>Với thời gian ôn luyện gấp rút trong 2 tháng cùng việc xét chọn kỹ lưỡng qua các bài kiểm tra, đội tuyển Olympic Tin học toàn quốc của Trường Đại học Thủy lợi...</span>									
 																		</div>
 																	</div>	
 																</div> 									
@@ -273,64 +277,63 @@ session_start();
 															<hr>
 															<div class="row">
 																<div class="col-md-12">
-																	<h3 class="fas fa-film"> Video giới thiệu Khoa</h3><br><br>
-																	<iframe  width="100%" height="300px" 
-																	src="https://www.youtube.com/embed/vq3GlW82oRg"
-																	frameborder="0" >
-																</iframe>
-															</div>
-														</div>												
+																	<h3 style="float: left;" class="fas fa-film"> Video giới thiệu Khoa</h3><br><br>
+																	
+																	<iframe width="100%" height="300px" src="https://www.youtube.com/embed/pv3DAYZzLGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+																</div>
+															</div>												
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
-									</div>
-									<!-- Thông báo -->
+										<!-- Thông báo -->
 
-									<div class="col-md-4">
-										<div class="container">
-											<div class="row">
+										<div class="col-md-4">
+											<div class="container">
+												<div class="row">
 
-												<center><h3 class="fas fa-bell"> Thông báo mới</h3></center><br/><br/>		
-												<img  src="images/icon_new1.gif" height="15px" width="31px" border="0" />							
-												<a href="http://cse.tlu.edu.vn/tin-thong-bao/cong-ty-cp-giai-phap-phan-mem-tai-chinh-fss-291" style="margin: 10px 0;"><img  src="images/icon_new1.gif" height="15px" width="31px" border="0" />CÔNG TY CP GIẢI PHÁP PHẦN MỀM TÀI CHÍNH (FSS) TUYỂN DỤNG</a>
-												<img  src="images/icon_new1.gif" height="15px" width="31px" border="0" /><br>
-												<a href="http://cse.tlu.edu.vn/tin-thong-bao/tu-0h00-ngay-30-5-den-1-8-2020-thi-sinh-bat-dau-290">Từ 0h00 ngày 30/5 đến 1/8/2020, Thí sinh bắt đầu đăng ký trực tuyến xét tuyển thẳng và xét tuyển học bạ vào Trường Đại học Thủy lợi</a>
-												<img  src="images/icon_new1.gif" height="15px" width="31px" border="0" /><br>
-												<a href="http://cse.tlu.edu.vn/tin-thong-bao/cong-ty-cp-giai-phap-phan-mem-tai-chinh-fss-291" style="margin: 10px 0;">CÔNG TY CP GIẢI PHÁP PHẦN MỀM TÀI CHÍNH (FSS) TUYỂN DỤNG</a>
+													<h3 style="float: left;" class="fas fa-bell"> Thông báo mới</h3><br>
+													<a href="http://cse.tlu.edu.vn/tin-thong-bao/cong-ty-cp-giai-phap-phan-mem-tai-chinh-fss-291" style="margin: 10px 0;">CÔNG TY CP GIẢI PHÁP PHẦN MỀM TÀI CHÍNH (FSS) TUYỂN DỤNG</a>
+													<img  src="../../images/icon_new1.gif" height="15px" width="31px" border="0" />
+													<a href="http://cse.tlu.edu.vn/tin-thong-bao/tu-0h00-ngay-30-5-den-1-8-2020-thi-sinh-bat-dau-290">Từ 0h00 ngày 30/5 đến 1/8/2020, Thí sinh bắt đầu đăng ký trực tuyến xét tuyển thẳng và xét tuyển học bạ vào Trường Đại học Thủy lợi</a>
+													<img  src="../../images/icon_new1.gif" height="15px" width="31px" border="0" />
+													<a href="http://cse.tlu.edu.vn/tin-thong-bao/cong-ty-cp-giai-phap-phan-mem-tai-chinh-fss-291" style="margin: 10px 0;">CÔNG TY CP GIẢI PHÁP PHẦN MỀM TÀI CHÍNH (FSS) TUYỂN DỤNG</a>
+
+												</div>
 
 											</div>
+											<hr>
 
-										</div>
-										<hr>
-
-										<div class="row ">
-											<div class="col-md-12 ">
-												<button type="button" class="btn btn-primary btn-block list-menu">Cựu sinh viên</button>
-												<button type="button" class="btn btn-secondary btn-block list-menu">Đoàn Hội CLB</button>
-												<button type="button" class="btn btn-success btn-block list-menu">Cố vấn học tập</button>
-												<button type="button" class="btn btn-danger btn-block list-menu">Thông tin học bổng</button>
-												<button type="button" class="btn btn-warning btn-block list-menu">Fanpage Khoa</button>
-												<button type="button" class="btn btn-info btn-block list-menu">Tuyển dụng</button>
-												<button type="button" class="btn btn-dark btn-block list-menu">IT support</button>
+											<div class="row ">
+												<div class="col-md-12 ">
+													<button type="button" class="btn btn-primary btn-block list-menu">Cựu sinh viên</button>
+													<button type="button" class="btn btn-secondary btn-block list-menu">Đoàn Hội CLB</button>
+													<button type="button" class="btn btn-success btn-block list-menu">Cố vấn học tập</button>
+													<button type="button" class="btn btn-danger btn-block list-menu">Thông tin học bổng</button>
+													<button type="button" class="btn btn-warning btn-block list-menu">Fanpage Khoa</button>
+													<button type="button" class="btn btn-info btn-block list-menu">Tuyển dụng</button>
+													<button type="button" class="btn btn-dark btn-block list-menu">IT support</button>
+												</div>
 											</div>
-										</div>
 
-										<hr>
-										<div class="row ">
-											<div class="col-md-12" style="margin-top:15px;" >
-												<h3 class="fas fa-search-location">Vị trí</h3><br><br/>
-												<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6645536882197!2d105.82422671440703!3d21.006079493929285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac80e331bc79%3A0x996c7ecac9e5b1c7!2zTmjDoCBDNSwgVHJ1bmcgTGnhu4d0LCDEkOG7kW5nIMSQYSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1604223286672!5m2!1svi!2s" width="330" height="330" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+											<hr>
+											<div class="row ">
+												<div class="col-md-12" style="margin-top:15px;" >
+													<h3 style="float: left;" class="fas fa-search-location">Vị trí</h3><br><br/>
+													<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6645536882197!2d105.82422671440703!3d21.006079493929285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac80e331bc79%3A0x996c7ecac9e5b1c7!2zTmjDoCBDNSwgVHJ1bmcgTGnhu4d0LCDEkOG7kW5nIMSQYSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1604223286672!5m2!1svi!2s" width="330" height="330" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div>
+
+								<hr>
 
 
 
-							<?php 
-							require('../footer.php');
-							?>
-						</body>
-						</html>
+								<?php 
+								require('../footer.php');
+								?>
+							</body>
+							</html>

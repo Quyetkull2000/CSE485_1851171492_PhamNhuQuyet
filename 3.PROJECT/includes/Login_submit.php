@@ -13,7 +13,7 @@ if (isset($_POST['Dangnhap']) && $_POST['username'] != ""  && $_POST['password']
        $_SESSION["user"]= $username;  //Đăng nhập thành công thì khởi tạo session user
    }
    else{
-   	$_SESSiON['error']= "bạn nhập sai username hoặc mật khẩu";
+   	$_SESSION['error']= "Bạn nhập sai username hoặc mật khẩu";
    	header("location: Login.php");
    }
 }

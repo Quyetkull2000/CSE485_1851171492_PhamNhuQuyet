@@ -251,7 +251,7 @@
 												<div class="col-md-12">
 													<h3 style="float: left;" class="fas fa-film"> Video giới thiệu Khoa</h3><br><br>
 													
-												<iframe width="100%" height="300px" src="https://www.youtube.com/embed/hxhTgffI2JY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												<iframe width="100%" height="300px" src="https://www.youtube.com/embed/pv3DAYZzLGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 											</div>
 										</div>												
 									</div>

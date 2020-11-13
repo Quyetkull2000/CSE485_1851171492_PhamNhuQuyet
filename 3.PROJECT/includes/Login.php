@@ -28,14 +28,14 @@ session_start();
             <label for="exampleInputPassword1">Password</label>
             <input type="password" class="form-control btn btn-outline-success" name="password">
           </div>
-          <center><input type="submit" name="Dangnhap" value="Đăng nhập" class="btn-lg btn-primary btn-block"></center>
+          <center><input type="submit" name="Dangnhap" value="Đăng nhập" class="btn-lg btn-primary btn-block"></center><br/>
           <!-- Hiển thị lỗi -->
           <?php 
           if (isset($_SESSION['error'])) {
             echo $_SESSION['error'];
-            
           }
           ?>
+          <br/>
           <a href="Register.php">Bạn chưa có tài khoản?</a>
         </form>
       </div>

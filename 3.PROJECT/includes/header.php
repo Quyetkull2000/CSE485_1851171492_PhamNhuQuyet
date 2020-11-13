@@ -18,7 +18,7 @@
 							
 							<div class="col-md-6">
 								<div >
-									<a  href="inludes/Register.php" style="margin-left: 17px;margin-top: 0px;padding-top: 3px;padding-left: 0px;color: white; ">Đăng ký</a>
+									<a  href="includes/Register.php" style="margin-left: 17px;margin-top: 0px;padding-top: 3px;padding-left: 0px;color: white; ">Đăng ký</a>
 								</div>
 							</div>
 						</div>

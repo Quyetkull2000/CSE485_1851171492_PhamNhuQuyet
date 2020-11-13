@@ -32,10 +32,10 @@
 						<a href="http://www.tlu.edu.vn/Portals/0/2020-6/CS%20HN_1%20(1)-da%20chuyn%20di.pdf?ver=2020-07-02-164537-460" target="cuaso" style="color: black;" >Điều kiện xét tuyển</a>
 					</h5>
 					<h5 class="card-header bg-success fa fa-address-book ">
-						<a href="https://tuyensinhso.vn/school/dai-hoc-thuy-loi.html" style="color: black;">Ngành xét tuyển</a>
+						<a href="nganhtuyensinh.php" style="color: black;">Ngành xét tuyển</a>
 					</h5>
 					<h5 class="card-header bg-warning fa fa-envelope-open ">
-						<a href="nganhtuyensinh.php" style="color: black;">Hồ sơ và cách đăng kí</a>
+						<a href="https://tuyensinhso.vn/school/dai-hoc-thuy-loi.html" style="color: black;">Hồ sơ và cách đăng kí</a>
 					</h5>
 					<h5 class="card-header bg-info title-menu fa fa-user-plus">
 						<a href="index.php" target="cuaso" style="color: black;">Đăng kí xét tuyển</a>
@@ -686,7 +686,7 @@
 									$hinhthucxettuyen=$_POST['xettuyen2'];
 								}
 								
-								$sql=" INSERT INTO hoso(Hoten,Gioitinh,Ngaysinh,Dantoc,Tongiao,Noisinh,Namtotnghiep,Hocluc_lop12,Hanhkiem_lop12,SoCMND,Ngaycap,Noicap,Hokhau,Matinh_lop10,Tentinh_lop10,Matruong_lop10,Tentruong_lop10,Matinh_lop11,Tentinh_lop11,Matruong_lop11,Tentruong_lop11,Matinh_lop12,Tentinh_lop12,Matruong_lop12,Tentruong_lop12,Doituong_uutien,Khuvuc_uutien,Diachi,Dienthoai_TS,Dienthoai_PH,Hinhthuc_xettuyen) VALUES('$hoten','$gioitinh','$ngaysinh','$dantoc','$tongiao','$noisinh','$namtotnghiep','$hocluclop12','$hanhkiemlop12','$socmnd','$ngaycap', '$noicap',  '$hokhauthuongtru' ,'$matinhlop10', '$tentinhlop10', '$matruonglop10', '$tentruonglop10', '$matinhlop11', '$tentinhlop11', '$matruonglop11', '$tentruonglop11', '$matinhlop12', '$tentinhlop12', '$matruonglop12', '$tentruonglop12', '$doituonguutien', '$khuvucuutien', '$diachilienhe','$sdtthisinh' ,'$sdtphuhuynh' ,'$hinhthucxettuyen')";
+								$sql=" INSERT INTO hoso(Hoten,Gioitinh,Ngaysinh,Dantoc,Tongiao,Noisinh,Hocluc_lop12,Hanhkiem_lop12,SoCMND,Ngaycap,Noicap,Hokhau,Matinh_lop10,Tentinh_lop10,Matruong_lop10,Tentruong_lop10,Matinh_lop11,Tentinh_lop11,Matruong_lop11,Tentruong_lop11,Matinh_lop12,Tentinh_lop12,Matruong_lop12,Tentruong_lop12,Doituong_uutien,Khuvuc_uutien,Diachi,Dienthoai_TS,Dienthoai_PH,Hinhthuc_xettuyen) VALUES('$hoten','$gioitinh','$ngaysinh','$dantoc','$tongiao','$noisinh','$hocluclop12','$hanhkiemlop12','$socmnd','$ngaycap', '$noicap',  '$hokhauthuongtru' ,'$matinhlop10', '$tentinhlop10', '$matruonglop10', '$tentruonglop10', '$matinhlop11', '$tentinhlop11', '$matruonglop11', '$tentruonglop11', '$matinhlop12', '$tentinhlop12', '$matruonglop12', '$tentruonglop12', '$doituonguutien', '$khuvucuutien', '$diachilienhe','$sdtthisinh' ,'$sdtphuhuynh' ,'$hinhthucxettuyen')";
 								mysqli_query($conn,$sql);
 							}
 							?>
