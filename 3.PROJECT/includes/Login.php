@@ -29,6 +29,7 @@ session_start();
             <input type="password" class="form-control btn btn-outline-success" name="password">
           </div>
           <center><input type="submit" name="Dangnhap" value="Đăng nhập" class="btn-lg btn-primary btn-block"></center>
+          <!-- Hiển thị lỗi -->
           <?php 
           if (isset($_SESSION['error'])) {
             echo $_SESSION['error'];

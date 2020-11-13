@@ -1,8 +1,8 @@
 <?php
 include "../Config.php";
 $departid = 0; // tạo biến gán = 0
-if (isset($_POST['depart'])) { // depart từ cái ajax(data) ý
-    $departid = mysqli_real_escape_string($conn, $_POST['depart']); // department id
+if (isset($_POST['majors'])) { // depart từ cái ajax(data) ý
+    $departid = mysqli_real_escape_string($conn, $_POST['majors']); // department id
     
 } //mysqli_real_escape_string hàm này ko biết nhé ,chỉ biết là lấy id của department
 $users_arr = array(); //tạo biến dạng mảng

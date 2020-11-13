@@ -15,7 +15,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/xettuyen.css">
 </head>
 <body>
 	<div class="container">
@@ -35,7 +35,7 @@
 						<a href="https://tuyensinhso.vn/school/dai-hoc-thuy-loi.html" style="color: black;">Ngành xét tuyển</a>
 					</h5>
 					<h5 class="card-header bg-warning fa fa-envelope-open ">
-						<a href="https://tuyensinhso.vn/school/dai-hoc-thuy-loi.html" style="color: black;">Hồ sơ và cách đăng kí</a>
+						<a href="nganhtuyensinh.php" style="color: black;">Hồ sơ và cách đăng kí</a>
 					</h5>
 					<h5 class="card-header bg-info title-menu fa fa-user-plus">
 						<a href="index.php" target="cuaso" style="color: black;">Đăng kí xét tuyển</a>
