@@ -25,11 +25,9 @@
             return FALSE;
     }
 
-    function addUser($id){
+    function updateUser($id, $username, $email){
         global $conn;
-        $sql = "INSERT FROM users WHERE id = '$id'";
-        $result = mysqli_query($conn,$sql);
-        $user = mysqli_fetch_assoc($result);
-        return $user;
+        $sql = "UPDATE users SET username='$username', email='$email' WHERE id='$id'";
+        mysqli_query($conn, $sql);
     }
 ?>

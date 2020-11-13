@@ -1,9 +1,17 @@
-<?php
-    require('config.php');
+
+<?php 
+    require("config.php");
     include("functions.php");
-    $user_id = $_GET['id'];
-    // B2: Khai bao truy van
-    $user = getOneUser( $user_id);
+    $id= $_GET['id'];
+    $id_nv = getOneUser($id);
+
+    if(isset($_POST['update'])){
+        $username = $_POST['username'];
+        $email = $_POST['email'];
+
+        updateUser($id, $username, $email);
+        header("location: admin.php");
+    }
 ?>
 <!doctype html>
 <html lang="en">
@@ -40,19 +48,19 @@
                 <div class="col-md-12">
                     <form action="" method="POST">
                         <div class="form-group">
-                          <label for="txtUserID">User ID</label>
-                          <input type="text" class="form-control" name="txtUserID" id="txtUserID" value = "<?php echo $user['id'];?>" disabled="disabled">
+                          <label for="id">User ID</label>
+                          <input type="text" class="form-control" name="id" id="id" value="<?php echo $id_nv['id'] ?>" disabled="disabled">
                         </div>
                         <div class="form-group">
-                          <label for="txtFirstName">Name</label>
-                          <input type="text" class="form-control" name="txtFirstName" id="txtFirstName" value = "<?php echo $user['username'];?>">
+                          <label for="username">Name</label>
+                          <input type="text" class="form-control" name="username" id="username" value="<?php echo $id_nv['username'] ?>">
                         </div>
                         <div class="form-group">
-                          <label for="txtLastName">Email</label>
-                          <input type="text" class="form-control" name="txtLastName" id="txtLastName" value = "<?php echo $user['email'];?>">
+                          <label for="email">Email</label>
+                          <input type="email" class="form-control" name="email" id="email" value = "<?php echo $id_nv['email'];?>">
                         </div>
                         <div class="form-group">
-                          <input href="update.php" type="submit" class="form-control bg-success" name="sbmSave" id="sbmSave" value="Save">
+                          <input href="admin.php" type="submit" class="form-control bg-success" name="update" id="update" value="Save">
                         </div>
                     </form>
                 </div>
