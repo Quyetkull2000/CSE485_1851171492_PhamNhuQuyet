@@ -58,12 +58,13 @@
 		<div class="footer__footer">
 			<div class="row">
 				<div class="col-md-4 col-xl-5 order-md-2">
-					<div class="footer__social">
-						<a href="https://www.facebook.com/cse.tlu.edu.vn/"><i class="fab fa-facebook"></i></a> 
-						<a href="https://www.instagram.com/daihocthuyloi1959/"><<i class="fab fa-instagram"></i></a>
-						<a href="https://www.youtube.com/user/daihocthuyloi"><<i class="fab fa-youtube"></i></a> 
+				<div class="col-md-12 footer__social">
+	
+					<a href="https://www.facebook.com/cse.tlu.edu.vn/"><i class="fab fa-facebook"></i></a> 
+					<a href="https://www.instagram.com/daihocthuyloi1959/"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.youtube.com/user/daihocthuyloi"><i class="fab fa-youtube"></i></a> 
 
-					</div>
+				</div>
 				</div>
 			</div>
 		</div>
